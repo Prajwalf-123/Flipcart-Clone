@@ -45,7 +45,7 @@ function Hello(){
           <Grid2 size={{ xs: 6, large: 4 }}>
             Ratings={data.rating}
           <Stack spacing={1}>
-      <Rating name="size-medium" defaultValue={data.rating} />
+      <Rating name="size-medium" value={parseInt(data.rating)} />
     </Stack>
     Comments:-{data.comment}
 

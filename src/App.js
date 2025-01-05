@@ -17,6 +17,7 @@ import View from './View';
 import Hello from './Hello';
 import Hello1 from './Hello1';
 import Txt1 from './Txt1';
+import Nnn from './Nnn';
 
 
 
@@ -25,6 +26,7 @@ import Txt1 from './Txt1';
 function App() {
   
   return<>
+  
 
   <BrowserRouter>
   <Routes>
@@ -37,8 +39,7 @@ function App() {
 
 
 <Route path='image'element={<Practice/>}/>
-<Route path='neww'element={<New10/>}/>
-<Route path='txt'element={<Txt1/>}/>
+<Route path='neww'element={<Nnn/>}/>
 
 
 
